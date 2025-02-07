@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-sizing: border-box; 
+}
+.container {
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: purple;
+}
+.title, .label1, .info1 {
+  background-color: pink;
+  padding: 20px;
+  margin: 1px;
+  border: 5px solid black;
+  font-weight: bold;
+}
+.input1 {
+  height: 1.5rem;
+  margin: 10px;
+  border: 5px solid black;
+  width: 50vw;
+}
+.button1 {
+  width: 15vw;
+  height: 2rem;
+  margin: 10px;
+  font-weight: bold;
+  border: 3px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+}
